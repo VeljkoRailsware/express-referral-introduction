@@ -75,7 +75,7 @@ Email credential variables are documented in [email setup](docs/email-setup.md).
 
 - `src/server.js` (routes and middleware) and `views/index.ejs` (page template).
 - `src/core/service.js`: the application's workflow, field validation, and atomic state changes.
-- `src/core/store.js`: SQLite records, hashed tokens, rate counters, and a small email outbox.
+- `src/core/store.js`: SQLite records, rate counters, and a small email outbox.
 - `src/core/mail.js`: server-side email transport and environment selection.
 - `test/workflow.test.mjs`: workflow and permission edge cases.
 - `test/email.test.mjs`: transport configuration tests using local doubles.
